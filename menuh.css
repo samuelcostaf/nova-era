@@ -11,7 +11,7 @@
 body{
 
     background: linear-gradient(45deg, rgb(247, 202, 126), rgb(149, 83, 254));
-    height: 100vh;
+    height: 100%;
 
 }
 
@@ -27,8 +27,15 @@ body{
     
 }
 
-
-
+.esp{
+    margin-top: 20px ;
+}
+code{
+    font-family: monospace;
+    background-color: gainsboro;
+    padding: 4px;
+    border-radius: 4px;
+}
 #menuh ul li a{
     font-size: 17px;
     padding: 20px;
@@ -53,9 +60,18 @@ body{
 }
 
 #menuh ul li:last-child a:hover{
-    background-color: rgb(211, 164, 255);
+    background-color: #d3a4ff;
 }
 
+#blocopi{
+    background-color: rgb(248, 240, 227, 0.500);
+    width: 1000px;
+    height: 500px;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 15px;
+    text-align: justify;
+}
 
 .blocop{
     background-color: rgb(248, 240, 227, 0.500);
@@ -65,6 +81,14 @@ body{
     margin-top: 30px;
     border-radius: 15px;
     text-align: justify;
+}
+.espb{
+    margin-bottom: 20px ;
+}
+
+.remarque{
+    color: rgb(167, 0, 233);
+    margin-top: 10px;
 }
 
 .blocop h1{
@@ -76,11 +100,38 @@ body{
     margin-bottom: 10px;
 }
 
+footer{
+    background-color: rgb(43, 43, 43);
+    height: 50px;
+    margin-top: 80px;
+}
+
+footer a{
+    color: orangered;
+    text-decoration: none;
+    transition-duration: 500ms;
+}
+
+footer a:hover{
+    color: #d3a4ff;
+}
+footer p{
+    padding-top: 15px;
+    text-align: center;
+    color: whitesmoke;
+}
+
 @media screen and (max-width: 1010px) {
     .blocop{
 
         width: 85%;
         height: 60%;
+    }
+
+    #blocopi{
+
+        width: 85%;
+        height: 80%;
     }
 }
 
