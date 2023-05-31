@@ -10,8 +10,8 @@
 }
 body{
 
-    background: linear-gradient(45deg, rgb(247, 202, 126), rgb(149, 83, 254));
-    height: 100%;
+    background-image: linear-gradient(45deg, #f7ca7e, #9553fe);
+    height: 100vh;
 
 }
 
@@ -76,7 +76,7 @@ code{
 .blocop{
     background-color: rgb(248, 240, 227, 0.500);
     width: 1000px;
-    height: 40%;
+    height: 30%;
     padding: 20px;
     margin-top: 30px;
     border-radius: 15px;
@@ -103,7 +103,7 @@ code{
 footer{
     background-color: rgb(43, 43, 43);
     height: 50px;
-    margin-top: 80px;
+    
 }
 
 footer a{
@@ -120,7 +120,10 @@ footer p{
     text-align: center;
     color: whitesmoke;
 }
+#qs{
 
+    height: 100vh;
+}
 @media screen and (max-width: 1010px) {
     .blocop{
 
@@ -133,6 +136,12 @@ footer p{
         width: 85%;
         height: 80%;
     }
+
+    body{
+        height: 100vh;
+    }
+
+
 }
 
 @media screen and (max-width: 540px) {
@@ -142,5 +151,4 @@ footer p{
         text-align: center;
     }
 
-    
 }
