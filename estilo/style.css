@@ -17,7 +17,7 @@
 
 body{
     background-image: var(--fundogeral);
-    height: 600px!
+    height: 100vh;
 }
 
 nav{
