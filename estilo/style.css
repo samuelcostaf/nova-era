@@ -82,7 +82,7 @@ article p{
 .gita{
     
     height: 30px;
-    position: fixed;
+    position: absolute;
     transition-duration: 500ms;
 }
 
