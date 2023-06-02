@@ -18,6 +18,8 @@
 body{
     background-image: var(--fundogeral);
     height: 100vh;
+    display : flex; 
+    flex-direction: column;
 }
 
 nav{
