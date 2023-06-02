@@ -75,6 +75,7 @@ article p{
 
 
 footer{
+     flex-shrink: 0;
     width: 100%;
     height: 50px;
     background-color: var(--corfooter);
