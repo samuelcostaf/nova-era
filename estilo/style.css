@@ -28,7 +28,7 @@ header{
 }
 
 nav{
-    background-color: var(--cormenu);
+    background-color: var(--corfooter);
     font-weight: bold;
     height: 44px;
 
@@ -43,8 +43,7 @@ nav a{
 }
 
 nav a:hover{
-    color: var(--cormenu);
-    background: var(--cor2);
+    color: var(--cor1);
     transition-duration: 750ms;
 }
 
