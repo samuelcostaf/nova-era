@@ -25,9 +25,9 @@ body{
 nav{
     background-color: var(--cormenu);
     font-weight: bold;
-    flex-shrink: 0; 
-    width: 100%; 
+    width: 100vh;
     height: 50px;
+
 }
 
 nav a{
