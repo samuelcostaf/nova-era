@@ -78,9 +78,6 @@ article p{
     text-align: left;
 }
 
-#tecs{
-    display: flex;
-}
 
 #tecs{
     color: var(--textomenu);
@@ -89,8 +86,9 @@ article p{
     display: flex;
     margin: auto;
     font-weight: bold;
-    border-radius: 2px;
+    border-radius: 8px;
     margin-bottom: 13px;
+    padding: 10px;
 }
 
 
